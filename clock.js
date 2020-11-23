@@ -1,5 +1,6 @@
 const clockContainer = document.querySelector('.js-clock');
-const clockTitle = document.querySelector('h1');
+// const clockTitle = document.querySelector('h1');
+const clockTitle = clockContainer.querySelector('span');
 
 function getTime()
 {
@@ -17,3 +18,4 @@ function init()
 }
 
 init();
+
