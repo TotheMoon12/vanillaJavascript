@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    background-color: #222f3e;
+    color: #ecf0f1;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+h4 {
+    color: #ffeaa7;
+}
+
+/* .content {
+    height: 100%;
+    width:  100%;    
+} */
+
+.form {
+    display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.bgImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear;
+}
+
